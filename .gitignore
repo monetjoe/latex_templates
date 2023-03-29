@@ -1,4 +1,6 @@
 ## Core latex/pdflatex auxiliary files:
+output/*
+!output/.gitkeep
 *.aux
 *.lof
 *.log
