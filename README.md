@@ -1,6 +1,6 @@
 # icme-latex-template
 
-Customized ICME LaTeX template
+Customized [ICME](https://ieeexplore.ieee.org/xpl/conhome/1000477/all-proceedings) LaTeX template
 
 [![license](https://img.shields.io/github/license/george-chou/paper-latex-template.svg)](https://github.com/george-chou/paper-latex-template/blob/master/LICENSE)
 [![CI](https://github.com/george-chou/paper-latex-template/actions/workflows/blank.yml/badge.svg)](https://github.com/george-chou/paper-latex-template/actions/workflows/blank.yml)
