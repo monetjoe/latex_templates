@@ -276,4 +276,4 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
-ISMIR2023_template.pdf
+*.pdf
