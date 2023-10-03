@@ -1,9 +1,23 @@
-# icme-latex-template
+# icassp2022-latex-template
+Customized [ICASSP 2022 Latex template](https://2022.ieeeicassp.org/call-for-special-sessions/) for VSCode
 
-Customized [ICME](https://ieeexplore.ieee.org/xpl/conhome/1000477/all-proceedings) LaTeX template for VSCode
+[![license](https://img.shields.io/github/license/MuGeminorum/ICASSP-LaTeX-Template.svg)](https://github.com/MuGeminorum/ICASSP-LaTeX-Template/blob/master/LICENSE)
 
-[![license](https://img.shields.io/github/license/MuGeminorum/ICME-LaTeX-Template.svg)](https://github.com/MuGeminorum/ICME-LaTeX-Template/blob/master/LICENSE)
+The following style files and templates are available for users of LaTeX and Microsoft Word:
 
-The IEEE International Conference on Multimedia & Expo (ICME) has been the flagship multimedia conference for the past two decades. Through the IEEE societies, the Conference serves as a forum to promote the latest advances in multimedia technologies, systems, and applications from both a research and development perspective.
+* LaTeX style file with margin, page layout, font, etc. definitions.
 
-ICME attracts well over 1000 submissions and 500 participants each year, serving as the prime forum for the dissemination of knowledge in the multimedia field. ICME 2023 will showcase high quality oral and poster presentations, as well as feature Workshops sponsored by IEEE societies. Researchers, developers and practitioners are welcomed to organise such Workshops on any new or emerging topic of Multimedia technology. An exposition of multimedia products, animations and industries will be held in conjunction with the conference. Moreover, proposals for Panels, Tutorials, Special Sessions, Industry Technology Workshops and Grand Challenges are also invited. In ICME 2023, exceptional papers and contributors will be also selected and recognised with prestigious awards.
+* BiBTeX style file with bibliography style definitions.
+
+* LaTeX template file, an example of using the `spconf.sty` and `IEEEbib.bst` files above. 
+
+* Sample `strings.bib` and `refs.bib` files.
+
+* Sample `image1.eps`, `image3.eps` and `image4.eps` files, referenced in the LaTeX template.
+
+We recommend that you use the Word file or LaTeX files to produce your document, since they have been set up to meet the formatting guidelines listed above. When using these files, double-check the paper size in your page setup to make sure you are using the letter-size paper layout (8.5" X 11") or A4 paper layout (210mm X 297mm). The LaTeX environment files specify suitable margins, page layout, text, and a bibliography style.
+
+In particular, with LaTeX, there are cases where the top-margin of the resulting Postscript or PDF file does not meet the specified parameters. In this case, you may need to add a \topmargin=0mm command just after the \begin{document} command in your .tex file. The spacing of the top margin is not critical, as the page contents will be adjusted on the proceedings. The critical dimensions are the actual width and height of the page content.
+
+For more information about ICASSP and paper submission visit this [link](https://2022.ieeeicassp.org)
+
