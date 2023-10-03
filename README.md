@@ -1,7 +1,7 @@
 # icassp2022-latex-template
 Customized [ICASSP 2022 Latex template](https://2022.ieeeicassp.org/call-for-special-sessions/) for VSCode
 
-[![license](https://img.shields.io/github/license/MuGeminorum/ICASSP-LaTeX-Template.svg)](https://github.com/MuGeminorum/ICASSP-LaTeX-Template/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/MuGeminorum/LaTeX-Template.svg)](https://github.com/MuGeminorum/LaTeX-Template/blob/master/LICENSE)
 
 The following style files and templates are available for users of LaTeX and Microsoft Word:
 
@@ -11,7 +11,7 @@ The following style files and templates are available for users of LaTeX and Mic
 
 * LaTeX template file, an example of using the `spconf.sty` and `IEEEbib.bst` files above. 
 
-* Sample `strings.bib` and `refs.bib` files.
+* Sample `*.bib` and `refs.bib` files.
 
 * Sample `image1.eps`, `image3.eps` and `image4.eps` files, referenced in the LaTeX template.
 
