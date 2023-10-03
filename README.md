@@ -2,7 +2,7 @@
 
 Customized [ICME](https://ieeexplore.ieee.org/xpl/conhome/1000477/all-proceedings) LaTeX template for VSCode
 
-[![license](https://img.shields.io/github/license/MuGeminorum/ICME-LaTeX-Template.svg)](https://github.com/MuGeminorum/ICME-LaTeX-Template/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/MuGeminorum/LaTeX-Template.svg)](https://github.com/MuGeminorum/LaTeX-Template/blob/master/LICENSE)
 
 The IEEE International Conference on Multimedia & Expo (ICME) has been the flagship multimedia conference for the past two decades. Through the IEEE societies, the Conference serves as a forum to promote the latest advances in multimedia technologies, systems, and applications from both a research and development perspective.
 
