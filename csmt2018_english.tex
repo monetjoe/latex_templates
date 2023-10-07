@@ -1,7 +1,5 @@
-% !Mode:: "TeX:UTF-8"
-
 \documentclass[UTF8,a4paper]{article}
-\usepackage{ctex}
+\usepackage[UTF8, fontset=windows]{ctex}
 \usepackage[sort&compress,numbers]{natbib}
 \usepackage{ccaption} 
 \usepackage{booktabs}
@@ -15,6 +13,9 @@
 \usepackage{float}
 \usepackage{marvosym}
 \usepackage{ifsym}
+\usepackage{caption}
+\usepackage{lmodern}
+\usepackage{hyperref}
 \geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm}
 \pagenumbering{gobble}
 
@@ -41,26 +42,27 @@
 		\let\footnote\thanks 
 		% Please select the applicable commands for foot notes
 		%{\centering \bfseries \zihao{3} \@title \thanks{\weizhuProject{Project Title}{Corresponding Author (1900--), M/F, Academic Degree, Academic Title, E-mail}}} \par } %For those funded by a grant
-		{\centering \bfseries \zihao{3} \@title \thanks{\weizhu{Corresponding Author (1900--), M/F, Academic Degree, Academic Title, E-mail}} \par } %For those are not funded by a specific grant
-		\vskip 1em
+		{\centering \bfseries \zihao{3} \@title \par} %\thanks{\weizhu{Corresponding Author (1900--), Shenyang Xu, Academic Degree, Academic Title, E-mail}} \par } %For those are not funded by a specific grant
+		\vskip 3em
 		{\centering \zihao{5} \textbf{\@author} \par}
 	\end{minipage}
 	\vskip 1em \par
 }
 \makeatother
 
-\title{A template for China Sound and Music Technology (CSMT) conference}
+\title{A Holistic Review of Music Emotion Computing}
 
-\author{%
-	{Author 1\affmark[1],  Author 2\affmark[2]}\\
-	\affaddr{\affmark[1]Affliation 1, City~~Post Code}\\
-	\affaddr{\affmark[2]Affliation 2, City~~Post Code}\\
+\author{
+	\textmd{\large Author One\affmark[1], Author Two\affmark[1], Author Three\affmark[1,2(\Letter)]}\\\vspace{0.27cm}
+	\textmd{\affmark[1] University 1, City1, Country1}\\
+	\textmd{\affmark[2] University 2, City2, Country2}\\
+	\texttt{email@email}\\
 }
 
 \begin{document}
 
 \maketitle
-
+\vspace{0.84cm}
 \begin{csmtAbstract}
 	Thank you very much for your submission to CSMT. In this document, we are going to brief how the submitted manuscript should be formatted. Please obey these instructions for an easier review processing time. The CSMT organisation committee appreciates your cooperation. The deadline of submission for CSMT this year is set to 31st Aug 2018.
 \end{csmtAbstract}
@@ -138,6 +140,7 @@ All manuscripts are limited to 6 pages. Please submit the manuscripts via \url{h
 \section{Remarks}
 As this is the very first CSMT template, the author acknowledge there are probably many parts of the template should be further improved. We encourage the authors correct the templates obeying the principles stated above. Please be aware that the footnote for titles can be changed to show the supported grant at camera-ready stage.
 
+\renewcommand{\refname}{References}
 \bibliographystyle{IEEEbib}
 \bibliography{csmt2018_english}
 
