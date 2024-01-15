@@ -277,3 +277,4 @@ TSWLatexianTemp*
 # Makeindex log files
 *.lpz
 *.pdf
+rename.sh

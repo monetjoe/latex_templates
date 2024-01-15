@@ -1,5 +1,4 @@
 # eurasip-latex-template
-
 Customized [EURASIP](https://eurasip.org/) LaTeX template for VSCode
 
 [![license](https://img.shields.io/github/license/MuGeminorum/LaTeX-Template.svg)](https://github.com/MuGeminorum/LaTeX-Template/blob/master/LICENSE)
