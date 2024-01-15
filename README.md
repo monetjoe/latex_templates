@@ -1,5 +1,4 @@
 # ismir-latex-template
-
 Customized [ISMIR LaTeX template](https://github.com/ismir/paper_templates) for VSCode
 
 [![license](https://img.shields.io/github/license/MuGeminorum/LaTeX-Template.svg)](https://github.com/MuGeminorum/LaTeX-Template/blob/master/LICENSE)
