@@ -1,7 +1,7 @@
-# icassp2022-latex-template
-Customized [ICASSP 2022 Latex template](https://2022.ieeeicassp.org/call-for-special-sessions/) for VSCode
+# ICASSP Latex Template
+Customized [ICASSP Latex template](https://2022.ieeeicassp.org/call-for-special-sessions/) for VSCode
 
-[![license](https://img.shields.io/github/license/MuGeminorum/LaTeX-Template.svg)](https://github.com/MuGeminorum/LaTeX-Template/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/monetjoe/latex_templates.svg)](https://github.com/monetjoe/latex_templates/blob/icassp/LICENSE)
 
 The following style files and templates are available for users of LaTeX and Microsoft Word:
 
