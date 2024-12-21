@@ -1,6 +1,6 @@
-# ismir-latex-template
-Customized [ISMIR LaTeX template](https://github.com/ismir/paper_templates) for VSCode
+# TAFFC LaTeX Template
+Customized [TAFFC LaTeX template](https://template-selector.ieee.org/secure/templateSelector/downloadTemplate?publicationTypeId=1&titleId=138&articleId=1&fileId=183) for VSCode
 
-[![license](https://img.shields.io/github/license/MuGeminorum/LaTeX-Template.svg)](https://github.com/MuGeminorum/LaTeX-Template/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/monetjoe/latex_templates.svg)](https://github.com/monetjoe/latex_templates/blob/taffc/LICENSE)
 
-The International Society for Music Information Retrieval (ISMIR) is a non-profit organisation seeking to advance research in the field of music information retrieval (MIR)—a field that aims at developing computational tools for processing, searching, organizing, and accessing music-related data. Among other things, the ISMIR society fosters the exchange of ideas and activities among its members, stimulates research and education in MIR, supports and encourages diversity in membership and disciplines, and oversees the organisation of the annual ISMIR conference. More details on the society.
+The IEEE Transactions on Affective Computing is intended to be a cross disciplinary and international archive journal aimed at disseminating results of research on the design of systems that can recognize, interpret, and simulate human emotions and related affective phenomena. The journal will publish original research on the principles and theories explaining why and how affective factors condition interaction between humans and technology, on how affective sensing and simulation techniques can inform our understanding of human affective processes, and on the design, implementation and evaluation of systems that carefully consider affect among the factors that influence their usability. Surveys of existing work will be considered for publication when they propose a new viewpoint on the history and the perspective on this domain.
