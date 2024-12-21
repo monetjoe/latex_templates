@@ -10,6 +10,7 @@
 \usepackage{verbatim}
 \usepackage{graphicx}
 \usepackage{cite}
+% \usepackage[numbers]{natbib}
 \hyphenation{op-tical net-works semi-conduc-tor IEEE-Xplore}
 % updated with editorial comments 8/9/2021
 
@@ -56,7 +57,7 @@ The following online groups are helpful to beginning and experienced \LaTeX\ use
 \end{list}
 
 \section{Other Resources}
-See \cite{IEEEhowto:IEEEtranpage} for resources on formatting math into text and additional help in working with \LaTeX .
+See \cite{IEEEexample:article_typical} for resources on formatting math into text and additional help in working with \LaTeX .
 
 \section{Text}
 For some of the remainer of this sample we will use dummy text to fill out paragraphs rather than use live text that may violate a copyright.
@@ -64,7 +65,7 @@ For some of the remainer of this sample we will use dummy text to fill out parag
 Itam, que ipiti sum dem velit la sum et dionet quatibus apitet voloritet audam, qui aliciant voloreicid quaspe volorem ut maximusandit faccum conemporerum aut ellatur, nobis arcimus.
 Fugit odi ut pliquia incitium latum que cusapere perit molupta eaquaeria quod ut optatem poreiur? Quiaerr ovitior suntiant litio bearciur?
 
-Onseque sequaes rectur autate minullore nusae nestiberum, sum voluptatio. Et ratem sequiam quaspername nos rem repudandae volum consequis nos eium aut as molupta tectum ulparumquam ut maximillesti consequas quas inctia cum volectinusa porrum unt eius cusaest exeritatur? Nias es enist fugit pa vollum reium essusam nist et pa aceaqui quo elibusdandis deligendus que nullaci lloreri bla que sa coreriam explacc atiumquos simolorpore, non prehendunt lam que occum\cite{IEEEexample:bibtexdesign} si aut aut maximus eliaeruntia dia sequiamenime natem sendae ipidemp orehend uciisi omnienetus most verum, ommolendi omnimus, est, veni aut ipsa volendelist mo conserum volores estisciis recessi nveles ut poressitatur sitiis ex endi diti volum dolupta aut aut odi as eatquo cullabo remquis toreptum et des accus dolende pores sequas dolores tinust quas expel moditae ne sum quiatis nis endipie nihilis etum fugiae audi dia quiasit quibus.
+Onseque sequaes rectur autate minullore nusae nestiberum, sum voluptatio. Et ratem sequiam quaspername nos rem repudandae volum consequis nos eium aut as molupta tectum ulparumquam ut maximillesti consequas quas inctia cum volectinusa porrum unt eius cusaest exeritatur? Nias es enist fugit pa vollum reium essusam nist et pa aceaqui quo elibusdandis deligendus que nullaci lloreri bla que sa coreriam explacc atiumquos simolorpore, non prehendunt lam que occum\cite{IEEEexample:articleetal} si aut aut maximus eliaeruntia dia sequiamenime natem sendae ipidemp orehend uciisi omnienetus most verum, ommolendi omnimus, est, veni aut ipsa volendelist mo conserum volores estisciis recessi nveles ut poressitatur sitiis ex endi diti volum dolupta aut aut odi as eatquo cullabo remquis toreptum et des accus dolende pores sequas dolores tinust quas expel moditae ne sum quiatis nis endipie nihilis etum fugiae audi dia quiasit quibus.
 \IEEEpubidadjcol
 Ibus el et quatemo luptatque doluptaest et pe volent rem ipidusa eribus utem venimolorae dera qui acea quam etur aceruptat.
 Gias anis doluptaspic tem et aliquis alique inctiuntiur?
@@ -87,10 +88,10 @@ Enumeration of section headings is desirable, but not required. When numbered, p
 
 \subsection{Citations to the Bibliography}
 The coding for the citations is made with the \LaTeX\ $\backslash${\tt{cite}} command.
-This will display as: see \cite{IEEEexample:tamethebeast}.
+This will display as: see \cite{IEEEexample:conf_typical}.
 
 For multiple citations code as follows: {\tt{$\backslash$cite\{ref1,ref2,ref3\}}}
-which will produce \cite{IEEEexample:bibtexFAQ}. For reference ranges that are not consecutive code as {\tt{$\backslash$cite\{ref1,ref2,ref3,ref9\}}} which will produce  \cite{IEEEexample:texfaq}
+which will produce \cite{IEEEexample:book_typical}. For reference ranges that are not consecutive code as {\tt{$\backslash$cite\{ref1,ref2,ref3,ref9\}}} which will produce  \cite{IEEEexample:articlelargepages}
 
 \subsection{Lists}
 In this section, we will consider three types of lists: simple unnumbered, numbered, and bulleted. There have been many options added to IEEEtran to enhance the creation of lists. If your lists are more complex than those shown below, please refer to the original ``IEEEtran\_HOWTO.pdf'' for additional options.\\
@@ -211,7 +212,7 @@ Que sunt eum lam eos si dic to estist, culluptium quid qui nestrum nobis reiumqu
 
 Typographical conventions for mathematical formulas have been developed to {\bf provide uniformity and clarity of presentation across mathematical texts}. This enables the readers of those texts to both understand the author's ideas and to grasp new concepts quickly. While software such as \LaTeX \ and MathType\textsuperscript{\textregistered} can produce aesthetically pleasing math when used properly, it is also very easy to misuse the software, potentially resulting in incorrect math display.
 
-IEEE aims to provide authors with the proper guidance on mathematical typesetting style and assist them in writing the best possible article. As such, IEEE has assembled a set of examples of good and bad mathematical typesetting \cite{IEEEexample:bibtexguide}.
+IEEE aims to provide authors with the proper guidance on mathematical typesetting style and assist them in writing the best possible article. As such, IEEE has assembled a set of examples of good and bad mathematical typesetting \cite{IEEEexample:articledualmonths}.
 
 Further examples can be found at \url{http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE-Math-Typesetting-Guide-for-LaTeX-Users.pdf}
 
@@ -543,7 +544,7 @@ http://www.michaelshell.org/tex/ieeetran/bibtex/
 
 % argument is your BibTeX string definitions and bibliography database(s)
 \bibliographystyle{IEEEtran}
-\bibliography{IEEEexample}
+\bibliography{ref.bib}
 
 %
 \section{Simple References}
