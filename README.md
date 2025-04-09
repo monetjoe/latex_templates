@@ -1,5 +1,5 @@
-# IEEE Journal LaTeX Template
-Customized [IEEE Journal LaTeX template](https://template-selector.ieee.org/secure/templateSelector/publication?publicationTypeId=1) for VSCode
+# IEEE Journal General LaTeX Template
+Customized [IEEE journal general LaTeX template](https://template-selector.ieee.org/secure/templateSelector/publication?publicationTypeId=1) for VSCode
 
 [![license](https://img.shields.io/github/license/monetjoe/latex_templates.svg)](./LICENSE)
 
@@ -7,3 +7,9 @@ IEEE, (pronounced “I triple E”) is a professional association with its corpo
 
 ## Supported journals
 TASLP, TAFFC, etc.
+
+## Code download
+```bash
+git clone -b ieee git@github.com:monetjoe/latex_templates.git
+cd latex_templates
+```
