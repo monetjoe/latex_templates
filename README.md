@@ -1,6 +1,6 @@
 # ICME LaTeX Template
 
-Customized [ICME](https://ieeexplore.ieee.org/xpl/conhome/1000477/all-proceedings) LaTeX template for VSCode
+Customized [ICME](https://ieeexplore.ieee.org/xpl/conhome/1000477/all-proceedings)(W) LaTeX template for VSCode
 
 [![license](https://img.shields.io/github/license/monetjoe/latex_templates.svg)](./LICENSE)
 
