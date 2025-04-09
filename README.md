@@ -1,7 +1,7 @@
 # ICASSP Latex Template
-Customized [ICASSP Latex template](https://2022.ieeeicassp.org/call-for-special-sessions/) for VSCode
+Customized [ICASSP Latex template](https://signalprocessingsociety.org/event-names/icassp) for VSCode
 
-[![license](https://img.shields.io/github/license/monetjoe/latex_templates.svg)](https://github.com/monetjoe/latex_templates/blob/icassp/LICENSE)
+[![license](https://img.shields.io/github/license/monetjoe/latex_templates.svg)](./LICENSE)
 
 The following style files and templates are available for users of LaTeX and Microsoft Word:
 
@@ -19,5 +19,9 @@ We recommend that you use the Word file or LaTeX files to produce your document,
 
 In particular, with LaTeX, there are cases where the top-margin of the resulting Postscript or PDF file does not meet the specified parameters. In this case, you may need to add a \topmargin=0mm command just after the \begin{document} command in your .tex file. The spacing of the top margin is not critical, as the page contents will be adjusted on the proceedings. The critical dimensions are the actual width and height of the page content.
 
-For more information about ICASSP and paper submission visit this [link](https://2022.ieeeicassp.org)
+## Code download
+```bash
+git clone -b icassp git@github.com:monetjoe/latex_templates.git
+cd latex_templates
+```
 
