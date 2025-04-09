@@ -6,6 +6,7 @@ Customized LaTeX templates for all kinds of journals or conferences on VSCode
 ## Supported journals or conferences (TLS)
 |  Journals/conferences  | Branch  |
 | :--------------------: | :-----: |
+|      IEEE Access       | access  |
 |       ICME/ICMEW       |  icme   |
 | CCOM graduation thesis |  ccom   |
 |          CSMT          |  csmt   |
