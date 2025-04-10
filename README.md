@@ -6,11 +6,11 @@ Customized LaTeX templates for all kinds of AI journals or conferences on VSCode
 ## Supported journals or conferences (TLS)
 | Journals/conferences | Branch  |
 | :------------------: | :-----: |
-|     IEEE Access      | access  |
-|      ICME/ICMEW      |  icme   |
 |         CSMT         |  csmt   |
 |       EURASIP        | eurasip |
 |        ICASSP        | icassp  |
+|      ICME/ICMEW      |  icme   |
+|     IEEE Access      | access  |
 |    IEEE journals     |  ieee   |
 |     ISMIR/TISMIR     |  ismir  |
 |         ...          |   ...   |
@@ -20,3 +20,9 @@ Customized LaTeX templates for all kinds of AI journals or conferences on VSCode
 git clone -b [Branch] git@github.com:monetjoe/latex_templates.git
 cd latex_templates
 ```
+
+## Environment
+- <https://z2.ink/boMq>
+
+## Thanks
+- <https://github.com/faz0Bear/CCOM_Thesis_Latex_Template>
