@@ -1,5 +1,5 @@
-# LaTeX Templates for Various Papers
-Customized LaTeX templates for all kinds of journals or conferences on VSCode
+# LaTeX Templates for Various AI Papers
+Customized LaTeX templates for all kinds of AI journals or conferences on VSCode
 
 [![license](https://img.shields.io/github/license/monetjoe/latex_templates.svg)](./LICENSE)
 
